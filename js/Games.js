@@ -36,5 +36,18 @@ window.GAMES = [
     featured: false,
     addedAt: '2026-01-01',
     bestKey: 'best-tetris'
-  }
+  },
+{
+  id: 'brick',
+  name: '打砖块',
+  desc: '弹球打砖块，清屏挑战。',
+  cat: ['classic','action'],
+  tags: ['弹球','反应力'],
+  src: 'games/brick/index.html',
+  cover: { emoji:'🧱', bg:'#FFF7ED', fg:'#EA580C' },
+  featured: true,
+  addedAt: '2026-01-01',
+  bestKey: 'best-brick' // 若你的游戏记录了最佳成绩，就填上对应键
+}
+
 ];
